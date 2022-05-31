@@ -1,0 +1,1293 @@
+# Trace file started at Tue May 31 08:44:59 CEST 2022
+# JT Harness version 5.0
+# class directory: /home/zowallar/dev/geronimo/tmp/mail-tck/javatest.jar
+# using java: /usr/lib/jvm/java-8-openjdk-amd64/jre
+Starting tests.
+Test suite class: com.oracle.ts.lib.harness.TS
+Test finder class: com.sun.javatest.finder.TestFinderDecorator
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Address/testlist.html#equals_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Address/testlist.html#equals_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Address/testlist.html#getType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Address/testlist.html#getType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Address/testlist.html#toString_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Address/testlist.html#toString_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/event/ConnectionEvent/testlist.html#addConnectionListener_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/event/ConnectionEvent/testlist.html#addConnectionListener_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/event/FolderEvent/testlist.html#addFolderListener_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/event/FolderEvent/testlist.html#addFolderListener_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/event/FolderEvent/testlist.html#addMsgChangeList_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/event/FolderEvent/testlist.html#addMsgChangeList_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/event/FolderEvent/testlist.html#addMsgCntList_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/event/FolderEvent/testlist.html#addMsgCntList_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/event/StoreEvent/testlist.html#addStoreListener_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/event/StoreEvent/testlist.html#addStoreListener_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/event/TransportEvent/testlist.html#addTransportListener_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/event/TransportEvent/testlist.html#addTransportListener_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#authenFailExp_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#authenFailExp_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#folderClosedException_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#folderClosedException_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#folderNotFoundExp_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#folderNotFoundExp_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#illegalWriteException_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#illegalWriteException_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#msgRemoveExp_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#msgRemoveExp_Test: Failed. exit code 1
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#noSuchProvExp_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html#noSuchProvExp_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#add_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#add_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#contains_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#contains_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#fetchProfile_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#fetchProfile_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#getHeaderNames_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#getHeaderNames_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#getItems_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/FetchProfile/testlist.html#getItems_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#add_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#add_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#clear_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#clear_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#clone_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#clone_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#contains_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#contains_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#equals_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#equals_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#Flags_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#Flags_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#getSystemFlags_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#getSystemFlags_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#getUserFlags_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#getUserFlags_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#remove_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#remove_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#retainAll_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html#retainAll_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#appendMessages_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#appendMessages_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#autoclose_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#autoclose_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#close_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#close_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#create_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#create_Test: Failed. Warning: Failed to create test folder topdog
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#delete_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#delete_Test: Failed. Failed to create topdog folder
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#exists_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#exists_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#fetch_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#fetch_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getFolder_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getFolder_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getFullName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getFullName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessage_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessageContent_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessageContent_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessageCount_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessageCount_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessages_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getMessages_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getNewMessageCount_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getNewMessageCount_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getParent_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getParent_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getPermanentFlags_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getPermanentFlags_Test: Failed. Invalid/Null flags object returned!
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getSeparator_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getSeparator_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getStore_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getStore_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getType_Test: Failed. Failed to create test folder!
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getUnreadMessageCount_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#getUnreadMessageCount_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#hasNewMessages_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#hasNewMessages_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#isOpen_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#isOpen_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#isSubscribed_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#isSubscribed_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#list_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#list_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#listSubscribed_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#listSubscribed_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#open_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#open_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#renameTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#renameTo_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#search_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#search_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#setSubscribed_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Folder/testlist.html#setSubscribed_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Header/testlist.html#header_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Header/testlist.html#header_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/AddressException/testlist.html#addressException_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/AddressException/testlist.html#addressException_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/AddressException/testlist.html#getPos_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/AddressException/testlist.html#getPos_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/AddressException/testlist.html#getRef_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/AddressException/testlist.html#getRef_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#contentType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#contentType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getBaseType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getBaseType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getParameter_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getParameter_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getParameterList_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getParameterList_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getPrimaryType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getPrimaryType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getSubType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#getSubType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#match_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#match_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setParameter_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setParameter_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setParameterList_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setParameterList_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setPrimaryType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setPrimaryType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setSubType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#setSubType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#toString_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ContentType/testlist.html#toString_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#getRemainder_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#getRemainder_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#headerTokenizer_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#headerTokenizer_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#next_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#next_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#peek_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/HeaderTokenizer/testlist.html#peek_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#getAddress_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#getAddress_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#getPersonal_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#getPersonal_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#getType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#getType_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#internetAddress_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#internetAddress_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#setAddress_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#setAddress_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#setPersonal_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#setPersonal_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#unicode_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#unicode_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#utilmethods_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetAddress/testlist.html#utilmethods_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#accessProtected_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#accessProtected_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#addHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#addHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#addHeaderLine_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#addHeaderLine_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getAllHeaderLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getAllHeaderLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getAllHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getAllHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getMatchHeadLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getMatchHeadLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getMatchingHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getMatchingHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getNonMatchHead_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getNonMatchHead_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getNonMatchHeadLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#getNonMatchHeadLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#InternetHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#InternetHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#load_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#load_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#removeHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#removeHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#setHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/InternetHeaders/testlist.html#setHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MailDateFormat/testlist.html#unsupportedOperation_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MailDateFormat/testlist.html#unsupportedOperation_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#addHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#addHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#addHeaderLine_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#addHeaderLine_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#attachFile_saveFile_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#attachFile_saveFile_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getAllHeaderLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getAllHeaderLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getAllHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getAllHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContent_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContent_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentID_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentID_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentLanguage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentLanguage_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentMD5_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentMD5_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getContentType_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getDataHandler_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getDataHandler_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getDescription_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getDescription_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getDisposition_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getDisposition_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getEncoding_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getEncoding_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getFileName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getFileName_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getHeader_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getLineCount_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getLineCount_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getMatchHeadLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getMatchHeadLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getMatchingHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getMatchingHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getNonMatchHead_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getNonMatchHead_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getNonMatchHeadLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getNonMatchHeadLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getSize_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#getSize_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#isMimeType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#isMimeType_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#mimeBodyPart_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#mimeBodyPart_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#removeHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#removeHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setContent_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setContent_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setContentLanguage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setContentLanguage_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setContentMD5_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setContentMD5_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setDataHandler_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setDataHandler_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setDescription_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setDescription_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setDisposition_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setDisposition_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setFileName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setFileName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setFileNameEncoded_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setFileNameEncoded_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setText_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#setText_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#writeTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeBodyPart/testlist.html#writeTo_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#addHeaderLine_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#addHeaderLine_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#addRecipients_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#addRecipients_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#createMimeMessage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#createMimeMessage_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getAllHeaderLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getAllHeaderLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getContentID_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getContentID_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getContentLanguage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getContentLanguage_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getContentMD5_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getContentMD5_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getEncoding_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getEncoding_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getHeader_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getInputStream_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getInputStream_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getMatchHeadLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getMatchHeadLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getNonMatchHeadLines_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getNonMatchHeadLines_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getSentDate_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#getSentDate_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#MimeMessage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#MimeMessage_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#reply_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#reply_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setContent_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setContent_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setContentID_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setContentID_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setContentMD5_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setContentMD5_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setDataHandler_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setDataHandler_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setDescription_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setDescription_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setDisposition_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setDisposition_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setFileNameEncoded_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setFileNameEncoded_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setFrom_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setFrom_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setSentDate_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setSentDate_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setSubject_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#setSubject_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#unicode_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#unicode_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#updateHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#updateHeaders_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#updateMessageID_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#updateMessageID_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#writeTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMessage/testlist.html#writeTo_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#getBodyPart_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#getBodyPart_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#getCount_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#getCount_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#getsetPreamble_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#getsetPreamble_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#initializeProperties_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#initializeProperties_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#MimeMultipart_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#MimeMultipart_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#properties_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#properties_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#setSubType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#setSubType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#writeTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeMultipart/testlist.html#writeTo_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getContentType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getContentType_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getInputStream_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getInputStream_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getName_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getOutputStream_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#getOutputStream_Test: Failed. exit code 1
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#mimePartDataSource_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimePartDataSource/testlist.html#mimePartDataSource_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#decodeText_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#decodeText_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#decodeWord_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#decodeWord_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#encodeText_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#encodeText_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#encodeWord_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#encodeWord_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#foldUnfold_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/MimeUtility/testlist.html#foldUnfold_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#equals_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#equals_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#getHost_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#getHost_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#getNewsgroup_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#getNewsgroup_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#getType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#getType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#newsAddress_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#newsAddress_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#parse_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#parse_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#setHost_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#setHost_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#setNewsgroup_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#setNewsgroup_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#toString_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/NewsAddress/testlist.html#toString_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#combineSegments_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#combineSegments_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#encoded_default_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#encoded_default_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#encoded_false_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#encoded_false_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#encoded_true_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#encoded_true_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#get_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#get_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#getNames_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#getNames_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#parameterList_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#parameterList_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#remove_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#remove_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#set_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#set_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#set_withDecodeStrict_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#set_withDecodeStrict_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#size_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#size_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#toString_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParameterList/testlist.html#toString_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/ParseException/testlist.html#parseException_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/ParseException/testlist.html#parseException_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/internet/PreencodedMimeBodyPart/testlist.html#PreencodedMimeBodyPart_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/internet/PreencodedMimeBodyPart/testlist.html#PreencodedMimeBodyPart_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#addFrom_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#addFrom_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#addHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#addHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#addRecipient_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#addRecipient_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getAllHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getAllHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getContent_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getContent_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getContentType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getContentType_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getDataHandler_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getDataHandler_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getDescription_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getDescription_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getDisposition_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getDisposition_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFileName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFileName_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFlags_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFlags_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFolder_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFolder_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFrom_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getFrom_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getHeader_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getInputStream_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getInputStream_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getMatchingHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getMatchingHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getMessageNumber_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getMessageNumber_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getNonMatchingHeaders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getNonMatchingHeaders_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getReceivedDate_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getReceivedDate_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getReplyTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getReplyTo_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getSession_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getSession_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getSize_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getSize_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getSubject_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#getSubject_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#isExpunged_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#isExpunged_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#isSet_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#isSet_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#match_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#match_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#removeHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#removeHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#saveChanges_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#saveChanges_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setDataHandler_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setDataHandler_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFileName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFileName_Test: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFileNameTest_encodeFalse_decodeTrue
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFileNameTest_encodeFalse_decodeTrue: Failed.
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFileNameTest_encodeTrue_decodeFalse
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFileNameTest_encodeTrue_decodeFalse: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFlag_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFlag_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFrom_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setFrom_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setHeader_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setHeader_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setRecipients_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setRecipients_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setReplyTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setReplyTo_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setSubject_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Message/testlist.html#setSubject_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#addBodyPart1_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#addBodyPart1_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#addBodyPart2_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#addBodyPart2_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#getBodyPart_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#getBodyPart_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#getContentType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#getContentType_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#getCount_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#getCount_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#removeBodyPart1_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#removeBodyPart1_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#removeBodyPart2_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#removeBodyPart2_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#writeTo_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Multipart/testlist.html#writeTo_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/PasswordAuthentication/testlist.html#getPassword_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/PasswordAuthentication/testlist.html#getPassword_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/PasswordAuthentication/testlist.html#getUserName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/PasswordAuthentication/testlist.html#getUserName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/PasswordAuthentication/testlist.html#passwdAuthen_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/PasswordAuthentication/testlist.html#passwdAuthen_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getClassName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getClassName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getProtocol_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getProtocol_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getType_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getType_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getVendor_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getVendor_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getVersion_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Provider/testlist.html#getVersion_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/AndTerm/testlist.html#andterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/AndTerm/testlist.html#andterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/BodyTerm/testlist.html#bodyterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/BodyTerm/testlist.html#bodyterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/FlagTerm/testlist.html#flagterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/FlagTerm/testlist.html#flagterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/FromTerm/testlist.html#fromterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/FromTerm/testlist.html#fromterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/HeaderTerm/testlist.html#headerterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/HeaderTerm/testlist.html#headerterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/MessageIDTerm/testlist.html#messageidterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/MessageIDTerm/testlist.html#messageidterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/MessageNumberTerm/testlist.html#messagenumberterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/MessageNumberTerm/testlist.html#messagenumberterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/NotTerm/testlist.html#notterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/NotTerm/testlist.html#notterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/OrTerm/testlist.html#orterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/OrTerm/testlist.html#orterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/ReceivedDateTerm/testlist.html#receiveddateterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/ReceivedDateTerm/testlist.html#receiveddateterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/SearchException/testlist.html#searchException_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/SearchException/testlist.html#searchException_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/SentDateTerm/testlist.html#sentdateterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/SentDateTerm/testlist.html#sentdateterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/SizeTerm/testlist.html#sizeterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/SizeTerm/testlist.html#sizeterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/search/SubjectTerm/testlist.html#subjectterm_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/search/SubjectTerm/testlist.html#subjectterm_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#addProvider_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#addProvider_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getDefaultInstance_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getDefaultInstance_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getFolder_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getFolder_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getInstance_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getInstance_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getPasswdAuthen_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getPasswdAuthen_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProperties_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProperties_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProperty_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProperty_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProvider_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProvider_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProviders_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getProviders_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getStore_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getStore_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getTransport_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#getTransport_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#loadFromConf_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#loadFromConf_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#loadFromLib_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#loadFromLib_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#reqPasswdAuthen_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#reqPasswdAuthen_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#setPasswdAuthen_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#setPasswdAuthen_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#setProtocolForAddress_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#setProtocolForAddress_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#setProvider_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Session/testlist.html#setProvider_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#autoclose_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#autoclose_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#close_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#close_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#connect_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#connect_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#getDefaultFolder_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#getDefaultFolder_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#getFolder_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#getFolder_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#getURLName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Store/testlist.html#getURLName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#autoclose_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#autoclose_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#close_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#close_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#connect_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#connect_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#getURLName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#getURLName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#isConnected_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#isConnected_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#send_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#send_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#sendMessage_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/Transport/testlist.html#sendMessage_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/UIDFolder/testlist.html#getUID_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/UIDFolder/testlist.html#getUID_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/UIDFolder/testlist.html#getUIDNext_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/UIDFolder/testlist.html#getUIDNext_Test: Failed. EXCEPTION
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#equals_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#equals_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getFile_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getFile_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getHost_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getHost_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getPassword_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getPassword_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getPort_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getPort_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getProtocol_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getProtocol_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getUsername_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#getUsername_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#toString_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#toString_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#urlName_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/URLName/testlist.html#urlName_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/util/testlist.html#ByteArrayDataSource_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/util/testlist.html#ByteArrayDataSource_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/util/testlist.html#SharedByteArrayInputStream_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/util/testlist.html#SharedByteArrayInputStream_Test: Passed. OKAY
+
+Test starting: api/javasoft/sqe/tests/jakarta/mail/util/testlist.html#SharedFileInputStream_Test
+
+Test finished: api/javasoft/sqe/tests/jakarta/mail/util/testlist.html#SharedFileInputStream_Test: Passed. OKAY
+
+Test starting: SignatureTest.html
+
+Test finished: SignatureTest.html: Passed.
+Doing post-run cleanup
+Completed: Some tests did not pass

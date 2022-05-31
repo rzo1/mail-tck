@@ -1,0 +1,78 @@
+#Test Results (version 2)
+#Tue May 31 08:46:10 CEST 2022
+#-----testdescription-----
+$file=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/api/javasoft/sqe/tests/jakarta/mail/util/testlist.html
+$root=/home/zowallar/dev/geronimo/tmp/mail-tck/tests
+executeArgs=-WorkDir $JAVAMAIL_TESTDATA_DIR -io input.txt
+executeClass=javasoft.sqe.tests.jakarta.mail.util.ByteArrayDataSource_Test
+id=ByteArrayDataSource_Test
+keywords=extensionapi positive
+name=ByteArrayDataSource_Test
+source=ByteArrayDataSource_Test.java
+title=ByteArrayDataSource API(s)
+
+#-----environment-----
+ExecTCKTestOtherJVMCmd=com.sun.javatest.lib.ExecStdTestOtherJVMCmd
+JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
+JAVAMAIL_TESTDATA_DIR=$TS_HOME/tests/testdata
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar\:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar\:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
+TESTCLASS=$TS_HOME/classes
+TS_HOME=/home/zowallar/dev/geronimo/tmp/mail-tck/
+command.execute=$ExecTCKTestOtherJVMCmd CLASSPATH\=$testSuiteRootDir/../classes$\:$testClassDir\:$javatestClassDir$\:$extraOtherJVMClassPath HOME\=${user.home} $JAVA_HOME/bin/java -verify $testExecuteClass $testExecuteArgs $testDebug
+extraOtherJVMClassPath=$TS_HOME/sigtest.jar\:$LOCAL_CLASSES\:$TESTCLASS
+testDebug=
+user.home=/home/zowallar
+
+#-----testresult-----
+description=file\:/home/zowallar/dev/geronimo/tmp/mail-tck/tests/api/javasoft/sqe/tests/jakarta/mail/util/testlist.html\#ByteArrayDataSource_Test
+end=Tue May 31 08\:46\:10 CEST 2022
+environment=mailUnix
+execStatus=Passed. OKAY
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+javatestOS=Linux 5.14.0-1038-oem (amd64)
+javatestVersion=5.0
+script=com.sun.javatest.lib.StdTestScript
+sections=script_messages execute
+start=Tue May 31 08\:46\:10 CEST 2022
+test=api/javasoft/sqe/tests/jakarta/mail/util/testlist.html\#ByteArrayDataSource_Test
+timeoutSeconds=600
+totalTime=110
+work=/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/api/javasoft/sqe/tests/jakarta/mail/util
+
+#section:script_messages
+----------messages:(0/0)----------
+
+#section:execute
+----------messages:(1/792)----------
+command: com.sun.javatest.lib.ExecStdTestOtherJVMCmd CLASSPATH=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/../classes:/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/classes:/home/zowallar/dev/geronimo/tmp/mail-tck/javatest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//sigtest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-activation_2.0_spec-1.0.0.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_spec-1.0.0-M1.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//classes HOME=/home/zowallar /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -verify javasoft.sqe.tests.jakarta.mail.util.ByteArrayDataSource_Test -WorkDir /home/zowallar/dev/geronimo/tmp/mail-tck//tests/testdata -io input.txt
+----------out1:(1/19)----------
+STATUS:Passed.OKAY
+----------out2:(22/613)----------
+filename is=/home/zowallar/dev/geronimo/tmp/mail-tck//tests/testdata/input.txt
+UNIT TEST 1:  ByteArrayDataSource(InputStream, String)
+UNIT TEST 1: passed
+
+UNIT TEST 2:  ByteArrayDataSource(String, String)
+UNIT TEST 2: passed
+
+UNIT TEST 3:  ByteArrayDataSource(byte[], String)
+UNIT TEST 3: passed
+
+UNIT TEST 4:  ByteArrayDataSource.getInputStream()
+UNIT TEST 4: passed
+
+UNIT TEST 5:  ByteArrayDataSource.getOutputStream()
+UNIT TEST 5: passed
+
+UNIT TEST 6:  ByteArrayDataSource.getContentType()
+UNIT TEST 6: passed
+
+UNIT TEST 7:  ByteArrayDataSource.getName() and ByteArrayDataSource.setName()
+UNIT TEST 7: passed
+
+result: Passed. OKAY
+
+
+test result: Passed. OKAY

@@ -17,7 +17,7 @@
 - Adjust `lib/ts.jte` for your local setup
 - Update / override current geronimo mail jars in the project root (adjust paths, if needed) 
 
-## Run the Mail Server
+## Run the Mail Server (James / Docker)
 
 - In the root directory run: `docker-compose up -d`
 - Connect into the running container: `docker exec -ti mail-tck_mailserver_1 /bin/bash`
@@ -25,6 +25,13 @@
 
 ```
 /root/startup.sh | tee /root/mailserver.log &
+```
+
+## Alternative Mail Server (Greenmail)
+
+- Run the following docker command:
+```
+docker run -t -i -p 1025:3025 -p 3110:3110 -p 1143:3143 -p 3465:3465 -p 3993:3993 -p 3995:3995 -p 8080:8080 -e GREENMAIL_OPTS='-Dgreenmail.setup.test.all -Dgreenmail.hostname=0.0.0.0 -Dgreenmail.auth.disabled -Dgreenmail.verbose -Dgreenmail.users=user01:1234@james.local' greenmail/standalone:1.6.9
 ```
 
 ## Populate the mail server with required TCK data

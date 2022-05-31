@@ -1,0 +1,74 @@
+#Test Results (version 2)
+#Tue May 31 08:45:09 CEST 2022
+#-----testdescription-----
+$file=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html
+$root=/home/zowallar/dev/geronimo/tmp/mail-tck/tests
+executeArgs=-h $JAVAMAIL_SERVER -th $JAVAMAIL_TRANSPORT_SERVER -u $JAVAMAIL_USERNAME -t $JAVAMAIL_PROTOCOL -p $JAVAMAIL_PASSWORD
+executeClass=javasoft.sqe.tests.jakarta.mail.exception.authenFailExp_Test
+id=authenFailExp_Test
+keywords=extensionapi positive
+name=authenFailExp_Test
+source=authenFailExp_Test.java
+title=AuthenticationFailedException() API(s)
+
+#-----environment-----
+ExecTCKTestOtherJVMCmd=com.sun.javatest.lib.ExecStdTestOtherJVMCmd
+JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
+JAVAMAIL_PASSWORD=1234
+JAVAMAIL_PROTOCOL=imap
+JAVAMAIL_SERVER=localhost -pn 1143
+JAVAMAIL_TRANSPORT_SERVER=localhost -tpn 1025
+JAVAMAIL_USERNAME=user01@james.local
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar\:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar\:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
+TESTCLASS=$TS_HOME/classes
+TS_HOME=/home/zowallar/dev/geronimo/tmp/mail-tck/
+command.execute=$ExecTCKTestOtherJVMCmd CLASSPATH\=$testSuiteRootDir/../classes$\:$testClassDir\:$javatestClassDir$\:$extraOtherJVMClassPath HOME\=${user.home} $JAVA_HOME/bin/java -verify $testExecuteClass $testExecuteArgs $testDebug
+extraOtherJVMClassPath=$TS_HOME/sigtest.jar\:$LOCAL_CLASSES\:$TESTCLASS
+testDebug=
+user.home=/home/zowallar
+
+#-----testresult-----
+description=file\:/home/zowallar/dev/geronimo/tmp/mail-tck/tests/api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html\#authenFailExp_Test
+end=Tue May 31 08\:45\:09 CEST 2022
+environment=mailUnix
+execStatus=Passed. OKAY
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+javatestOS=Linux 5.14.0-1038-oem (amd64)
+javatestVersion=5.0
+script=com.sun.javatest.lib.StdTestScript
+sections=script_messages execute
+start=Tue May 31 08\:45\:09 CEST 2022
+test=api/javasoft/sqe/tests/jakarta/mail/exception/testlist.html\#authenFailExp_Test
+timeoutSeconds=600
+totalTime=166
+work=/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/api/javasoft/sqe/tests/jakarta/mail/exception
+
+#section:script_messages
+----------messages:(0/0)----------
+
+#section:execute
+----------messages:(1/795)----------
+command: com.sun.javatest.lib.ExecStdTestOtherJVMCmd CLASSPATH=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/../classes:/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/classes:/home/zowallar/dev/geronimo/tmp/mail-tck/javatest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//sigtest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-activation_2.0_spec-1.0.0.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_spec-1.0.0-M1.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//classes HOME=/home/zowallar /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -verify javasoft.sqe.tests.jakarta.mail.exception.authenFailExp_Test -h localhost -pn 1143 -th localhost -tpn 1025 -u user01@james.local -t imap -p 1234
+----------out1:(1/19)----------
+STATUS:Passed.OKAY
+----------out2:(14/615)----------
+
+Testing class AuthenticationFailedException: AuthenticationFailedException()
+
+UNIT TEST 1: AuthenticationFailedException(void|String)
+Connecting to localhost with user = user01@james.local and password = xyz0123
+UNIT TEST 1: passed.
+
+
+Exception caught!
+jakarta.mail.AuthenticationFailedException
+	at jakarta.mail.Service.connect(Service.java:281)
+	at javasoft.sqe.tests.jakarta.mail.exception.authenFailExp_Test.run(authenFailExp_Test.java:76)
+	at javasoft.sqe.tests.jakarta.mail.util.MailTest.run(MailTest.java:94)
+	at javasoft.sqe.tests.jakarta.mail.exception.authenFailExp_Test.main(authenFailExp_Test.java:43)
+result: Passed. OKAY
+
+
+test result: Passed. OKAY

@@ -1,0 +1,206 @@
+#Test Results (version 2)
+#Tue May 31 08:45:15 CEST 2022
+#-----testdescription-----
+$file=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html
+$root=/home/zowallar/dev/geronimo/tmp/mail-tck/tests
+executeArgs=
+executeClass=javasoft.sqe.tests.jakarta.mail.Flags.retainAll_Test
+id=retainAll_Test
+keywords=extensionapi positive
+name=retainAll_Test
+source=retainAll_Test.java
+title=retainAll() API(s)
+
+#-----environment-----
+ExecTCKTestOtherJVMCmd=com.sun.javatest.lib.ExecStdTestOtherJVMCmd
+JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar\:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar\:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
+TESTCLASS=$TS_HOME/classes
+TS_HOME=/home/zowallar/dev/geronimo/tmp/mail-tck/
+command.execute=$ExecTCKTestOtherJVMCmd CLASSPATH\=$testSuiteRootDir/../classes$\:$testClassDir\:$javatestClassDir$\:$extraOtherJVMClassPath HOME\=${user.home} $JAVA_HOME/bin/java -verify $testExecuteClass $testExecuteArgs $testDebug
+extraOtherJVMClassPath=$TS_HOME/sigtest.jar\:$LOCAL_CLASSES\:$TESTCLASS
+testDebug=
+user.home=/home/zowallar
+
+#-----testresult-----
+description=file\:/home/zowallar/dev/geronimo/tmp/mail-tck/tests/api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html\#retainAll_Test
+end=Tue May 31 08\:45\:15 CEST 2022
+environment=mailUnix
+execStatus=Failed.
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+javatestOS=Linux 5.14.0-1038-oem (amd64)
+javatestVersion=5.0
+script=com.sun.javatest.lib.StdTestScript
+sections=script_messages execute
+start=Tue May 31 08\:45\:15 CEST 2022
+test=api/javasoft/sqe/tests/jakarta/mail/Flags/testlist.html\#retainAll_Test
+timeoutSeconds=600
+totalTime=95
+work=/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/api/javasoft/sqe/tests/jakarta/mail/Flags
+
+#section:script_messages
+----------messages:(0/0)----------
+
+#section:execute
+----------messages:(1/703)----------
+command: com.sun.javatest.lib.ExecStdTestOtherJVMCmd CLASSPATH=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/../classes:/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/classes:/home/zowallar/dev/geronimo/tmp/mail-tck/javatest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//sigtest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-activation_2.0_spec-1.0.0.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_spec-1.0.0-M1.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//classes HOME=/home/zowallar /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -verify javasoft.sqe.tests.jakarta.mail.Flags.retainAll_Test
+----------out1:(1/15)----------
+STATUS:Failed.
+----------out2:(151/5725)----------
+
+Testing class Flags: retainAll(Flags)
+
+
+UNIT TEST 1: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 1: passed
+
+UNIT TEST 2: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@20) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return false, got true
+UNIT TEST 2: FAILED
+
+UNIT TEST 3: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@10) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return false, got true
+UNIT TEST 3: FAILED
+
+UNIT TEST 4: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@30) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return false, got true
+UNIT TEST 4: FAILED
+
+UNIT TEST 5: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 5: passed
+
+UNIT TEST 6: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@20) == (jakarta.mail.Flags@20)
+UNIT TEST 6: passed
+
+UNIT TEST 7: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@10) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return true, got true
+UNIT TEST 7: FAILED
+
+UNIT TEST 8: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@30) == (jakarta.mail.Flags@20)
+result (jakarta.mail.Flags@20)
+expected return false, got true
+UNIT TEST 8: FAILED
+
+UNIT TEST 9: (jakarta.mail.Flags@10) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 9: passed
+
+UNIT TEST 10: (jakarta.mail.Flags@10) retainAll (jakarta.mail.Flags@20) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return true, got true
+UNIT TEST 10: FAILED
+
+UNIT TEST 11: (jakarta.mail.Flags@10) retainAll (jakarta.mail.Flags@10) == (jakarta.mail.Flags@10)
+UNIT TEST 11: passed
+
+UNIT TEST 12: (jakarta.mail.Flags@10) retainAll (jakarta.mail.Flags@30) == (jakarta.mail.Flags@10)
+result (jakarta.mail.Flags@10)
+expected return false, got true
+UNIT TEST 12: FAILED
+
+UNIT TEST 13: (jakarta.mail.Flags@30) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 13: passed
+
+UNIT TEST 14: (jakarta.mail.Flags@30) retainAll (jakarta.mail.Flags@20) == (jakarta.mail.Flags@20)
+UNIT TEST 14: passed
+
+UNIT TEST 15: (jakarta.mail.Flags@30) retainAll (jakarta.mail.Flags@10) == (jakarta.mail.Flags@10)
+UNIT TEST 15: passed
+
+UNIT TEST 16: (jakarta.mail.Flags@30) retainAll (jakarta.mail.Flags@30) == (jakarta.mail.Flags@30)
+UNIT TEST 16: passed
+
+UNIT TEST 17: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 17: passed
+
+UNIT TEST 18: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@78) == (jakarta.mail.Flags@0)
+UNIT TEST 18: passed
+
+UNIT TEST 19: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@79) == (jakarta.mail.Flags@0)
+UNIT TEST 19: passed
+
+UNIT TEST 20: (jakarta.mail.Flags@0) retainAll (jakarta.mail.Flags@f1) == (jakarta.mail.Flags@0)
+UNIT TEST 20: passed
+
+UNIT TEST 21: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 21: passed
+
+UNIT TEST 22: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@78) == (jakarta.mail.Flags@78)
+UNIT TEST 22: passed
+
+UNIT TEST 23: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@79) == (jakarta.mail.Flags@0)
+UNIT TEST 23: passed
+
+UNIT TEST 24: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@f1) == (jakarta.mail.Flags@78)
+UNIT TEST 24: passed
+
+UNIT TEST 25: (jakarta.mail.Flags@79) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 25: passed
+
+UNIT TEST 26: (jakarta.mail.Flags@79) retainAll (jakarta.mail.Flags@78) == (jakarta.mail.Flags@0)
+UNIT TEST 26: passed
+
+UNIT TEST 27: (jakarta.mail.Flags@79) retainAll (jakarta.mail.Flags@79) == (jakarta.mail.Flags@79)
+UNIT TEST 27: passed
+
+UNIT TEST 28: (jakarta.mail.Flags@79) retainAll (jakarta.mail.Flags@f1) == (jakarta.mail.Flags@79)
+UNIT TEST 28: passed
+
+UNIT TEST 29: (jakarta.mail.Flags@f1) retainAll (jakarta.mail.Flags@0) == (jakarta.mail.Flags@0)
+UNIT TEST 29: passed
+
+UNIT TEST 30: (jakarta.mail.Flags@f1) retainAll (jakarta.mail.Flags@78) == (jakarta.mail.Flags@78)
+UNIT TEST 30: passed
+
+UNIT TEST 31: (jakarta.mail.Flags@f1) retainAll (jakarta.mail.Flags@79) == (jakarta.mail.Flags@79)
+UNIT TEST 31: passed
+
+UNIT TEST 32: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@78) == (jakarta.mail.Flags@0)
+UNIT TEST 32: passed
+
+UNIT TEST 33: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@20) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return true, got true
+UNIT TEST 33: FAILED
+
+UNIT TEST 34: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@58) == (jakarta.mail.Flags@20)
+UNIT TEST 34: passed
+
+UNIT TEST 35: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@58) == (jakarta.mail.Flags@78)
+result (jakarta.mail.Flags@78)
+expected return false, got true
+UNIT TEST 35: FAILED
+
+UNIT TEST 36: (jakarta.mail.Flags@58) retainAll (jakarta.mail.Flags@80000000) == (jakarta.mail.Flags@78)
+result (jakarta.mail.Flags@78)
+expected return true, got true
+UNIT TEST 36: FAILED
+
+UNIT TEST 37: (jakarta.mail.Flags@58) retainAll (jakarta.mail.Flags@80000020) == (jakarta.mail.Flags@58)
+result (jakarta.mail.Flags@58)
+expected return false, got true
+UNIT TEST 37: FAILED
+
+UNIT TEST 38: (jakarta.mail.Flags@78) retainAll (jakarta.mail.Flags@80000000) == (jakarta.mail.Flags@78)
+result (jakarta.mail.Flags@78)
+expected return false, got true
+UNIT TEST 38: FAILED
+
+UNIT TEST 39: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@80000020) == (jakarta.mail.Flags@20)
+result (jakarta.mail.Flags@20)
+expected return false, got true
+UNIT TEST 39: FAILED
+
+UNIT TEST 40: (jakarta.mail.Flags@20) retainAll (jakarta.mail.Flags@80000000) == (jakarta.mail.Flags@0)
+result (jakarta.mail.Flags@0)
+expected return true, got true
+UNIT TEST 40: FAILED
+result: Failed.
+
+
+test result: Failed.

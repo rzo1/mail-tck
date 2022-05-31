@@ -1,0 +1,61 @@
+#Test Results (version 2)
+#Tue May 31 08:46:11 CEST 2022
+#-----testdescription-----
+$file=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/SignatureTest.html
+$root=/home/zowallar/dev/geronimo/tmp/mail-tck/tests
+executeArgs=-ClassPath $LOCAL_CLASSES -TestURL $testURL -Package jakarta.mail -FileName jakarta.mail_2.0_java_${java.specification.version}.sig
+executeClass=com.sun.tdk.signaturetest.SignatureTest
+keywords=extensionapi
+name=Mail_SigTest
+title=API Signature verification
+
+#-----environment-----
+ExecTCKTestOtherJVMCmd=com.sun.javatest.lib.ExecStdTestOtherJVMCmd
+JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar\:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar\:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
+TESTCLASS=$TS_HOME/classes
+TS_HOME=/home/zowallar/dev/geronimo/tmp/mail-tck/
+command.execute=$ExecTCKTestOtherJVMCmd CLASSPATH\=$testSuiteRootDir/../classes$\:$testClassDir\:$javatestClassDir$\:$extraOtherJVMClassPath HOME\=${user.home} $JAVA_HOME/bin/java -verify $testExecuteClass $testExecuteArgs $testDebug
+extraOtherJVMClassPath=$TS_HOME/sigtest.jar\:$LOCAL_CLASSES\:$TESTCLASS
+java.specification.version=1.8
+testDebug=
+user.home=/home/zowallar
+
+#-----testresult-----
+description=file\:/home/zowallar/dev/geronimo/tmp/mail-tck/tests/SignatureTest.html
+end=Tue May 31 08\:46\:11 CEST 2022
+environment=mailUnix
+execStatus=Passed.
+harnessLoaderMode=Classpath Loader
+harnessVariety=Full Bundle
+javatestOS=Linux 5.14.0-1038-oem (amd64)
+javatestVersion=5.0
+script=com.sun.javatest.lib.StdTestScript
+sections=script_messages execute
+start=Tue May 31 08\:46\:10 CEST 2022
+test=SignatureTest.html
+timeoutSeconds=600
+totalTime=429
+work=/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/.
+
+#section:script_messages
+----------messages:(0/0)----------
+
+#section:execute
+----------messages:(1/1083)----------
+command: com.sun.javatest.lib.ExecStdTestOtherJVMCmd CLASSPATH=/home/zowallar/dev/geronimo/tmp/mail-tck/tests/../classes:/home/zowallar/dev/geronimo/tmp/mail-tck/JTwork/classes:/home/zowallar/dev/geronimo/tmp/mail-tck/javatest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//sigtest.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-activation_2.0_spec-1.0.0.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_spec-1.0.0-M1.jar:/home/zowallar/dev/geronimo/tmp/mail-tck//classes HOME=/home/zowallar /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -verify com.sun.tdk.signaturetest.SignatureTest -ClassPath /home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-activation_2.0_spec-1.0.0.jar:/home/zowallar/dev/geronimo/tmp/mail-tck/geronimo-mail_2.1_spec-1.0.0-M1.jar -TestURL file:/home/zowallar/dev/geronimo/tmp/mail-tck/tests/SignatureTest.html -Package jakarta.mail -FileName jakarta.mail_2.0_java_1.8.sig
+----------out1:(8/128)----------
+SignatureTest report
+Base version: 
+Tested version: 
+Check mode: src [throws normalized]
+Constant checking: on
+
+
+STATUS:Passed.
+----------out2:(0/0)----------
+result: Passed.
+
+
+test result: Passed.
