@@ -1,4 +1,0 @@
-[31Mai2022 08:39MESZ]  Starting test run
-[31Mai2022 08:40MESZ]  Completed test run: not ok
-[31Mai2022 08:44MESZ]  Starting test run
-[31Mai2022 08:46MESZ]  Completed test run: not ok
