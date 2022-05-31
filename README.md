@@ -9,7 +9,11 @@
 
 ## Preparations 
 
+- Ensure to have Java 8 installed - sigtests currently fail with Java 11 (31.05.22)
+- Ensure to hav Apache Ant installed and available in your path
+- Ensure to have Docker and Docker Compose installed
 - Adjust `setup-tck.sh` for your local setup
+- Adjust `run-tck.sh` for your local setup
 - Adjust `lib/ts.jte` for your local setup
 - Update / override current geronimo mail jars in the project root (adjust paths, if needed) 
 
@@ -37,8 +41,7 @@ docker run -t -i -p 1025:3025 -p 3110:3110 -p 1143:3143 -p 3465:3465 -p 3993:399
 
 ## Run the TCK
 
-
-
+- Run `run-tck.sh` from the project root.
 
 ## Sometimes cleanup might be required
 
