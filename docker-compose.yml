@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mailserver:
+    image: jakartaee/cts-mailserver:0.1
+    tty: true
+    ports:
+      - "1025:1025"
+      - "1143:1143"
