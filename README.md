@@ -1,7 +1,11 @@
-# Jakarta Mail TCK
+# Jakarta Mail TCK Setup for Geronimo
 
-This is the standalone Jakarta Mail TCK.  Running this TCK requires a mail
-server with an account that the TCK can use.
+## Modifications
 
-* TCK User's Guide - [pdf](docs/Jakarta-Mail-TCK-Users-Guide.pdf), [html](docs/html/toc.html)
-* [Javadocs for test classes](docs/javadocs/index.html)
+- Created `zips` dir containing the original zip files
+- Added `setup-tck.sh` containing code snippets to populate mail server according to documentation
+- Added `docker-compose.yml` to run a mail server
+
+
+
+

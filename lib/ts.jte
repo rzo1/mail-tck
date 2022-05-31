@@ -34,25 +34,28 @@
 
 # And this style naming convention for UNIX.
 # TS_HOME=/home/abc/mailtck
-TS_HOME=/home/jenkins/agent/workspace/mail-tck_master
+TS_HOME=/home/zowallar/dev/geronimo/tmp/mail-tck/
 
 # Set this to the installation of your JDK.
 
 ##JAVA_HOME=D:\\jdk1.8
 ##JAVA_HOME=/usr/jdk1.8
-JAVA_HOME=/opt/jdk1.8.0_251
+#JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 
 # Set this to the directory containing the Jakarta Mail .jar 
 # files (i.e., jakarta.mail.jar and jakarta.activation.jar)
-JARPATH=/home/jenkins/agent/workspace/mail-tck_master
+JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
 
 # Adjust these as necessary for Windows or UNIX
 # (Must use "${JARPATH}" syntax so ant will expand the nested properties)
 
 ##LOCAL_CLASSES=${JARPATH}\\jakarta.mail.jar:${JARPATH}\\jakarta.activation.jar
-LOCAL_CLASSES=${JARPATH}/jakarta.mail.jar:${JARPATH}/jakarta.activation.jar
+#LOCAL_CLASSES=${JARPATH}/jakarta.mail.jar:${JARPATH}/jakarta.activation.jar
 # Or use the following if testing modules:
 #LOCAL_CLASSES=${JARPATH}/mailapi.jar:${JARPATH}/smtp.jar:${JARPATH}/imap.jar:${JARPATH}/jakarta.activation.jar
+
+LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
 
 ##TESTCLASS=$TS_HOME\\classes
 TESTCLASS=$TS_HOME/classes
@@ -236,13 +239,13 @@ env.mailWindowsMod.command.execute=$ExecTCKTestOtherJVMCmd \
 #
 
 # mail server used to run tests against.
-JAVAMAIL_SERVER=
+JAVAMAIL_SERVER=localhost -pn 1143
 
 # user account on server
-JAVAMAIL_USERNAME=
+JAVAMAIL_USERNAME=user01@james.local
 
 # password for above account name
-JAVAMAIL_PASSWORD=
+JAVAMAIL_PASSWORD=1234
 
 # protocol used to run the Store tests
 JAVAMAIL_PROTOCOL=imap
@@ -251,7 +254,7 @@ JAVAMAIL_PROTOCOL=imap
 JAVAMAIL_TRANSPORT_PROTOCOL=smtp
 
 # mail server used to run tests against.
-JAVAMAIL_TRANSPORT_SERVER=$JAVAMAIL_SERVER
+JAVAMAIL_TRANSPORT_SERVER=localhost -tpn 1025
 
 # rootpath of test mailboxes
 JAVAMAIL_ROOT_PATH=""
@@ -266,10 +269,10 @@ JAVAMAIL_LISTPATTERN=test
 SMTP_USERNAME=$JAVAMAIL_USERNAME
 
 # smtp domain name ; i.e. aol.com, sun.com
-SMTP_DOMAIN=$JAVAMAIL_SERVER
+SMTP_DOMAIN=james.local
 
 # smtp From address
-SMTP_FROM=$SMTP_USERNAME@$SMTP_DOMAIN
+SMTP_FROM=$SMTP_USERNAME
 
 # smtp To address
-SMTP_TO=$SMTP_USERNAME@$SMTP_DOMAIN
+SMTP_TO=$SMTP_USERNAME
