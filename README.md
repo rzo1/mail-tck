@@ -5,7 +5,7 @@
 - Created `zips` dir containing the original zip files
 - Added `setup-tck.sh` containing code snippets to populate mail server according to documentation
 - Added `docker-compose.yml` to run a mail server
-- Added Geronimo Jars based on https://github.com/rzo1/geronimo-javamail/tree/tck-issues
+- Added Geronimo Jars based on https://github.com/rzo1/geronimo-javamail/tree/trunk
 
 ## Preparations 
 
