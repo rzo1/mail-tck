@@ -242,6 +242,7 @@ env.mailWindowsMod.command.execute=$ExecTCKTestOtherJVMCmd \
 JAVAMAIL_SERVER=localhost -pn 1143
 
 # user account on server
+#JAVAMAIL_USERNAME=user01@james.local
 JAVAMAIL_USERNAME=user01
 
 # password for above account name
