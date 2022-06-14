@@ -5,5 +5,5 @@ export CLASSPATH=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:$JARPATH/ger
 
 cd tests/mailboxes
 javac -cp $CLASSPATH fpopulate.java
-java -cp $CLASSPATH:. fpopulate -s test1 -d imap://user01%40james.local:1234@localhost:1143
+java -cp $CLASSPATH:. fpopulate -s test1 -d imap://user01:1234@localhost:1143
 
