@@ -34,7 +34,7 @@
 
 # And this style naming convention for UNIX.
 # TS_HOME=/home/abc/mailtck
-TS_HOME=/home/zowallar/dev/geronimo/tmp/mail-tck/
+TS_HOME=/home/rz/dev/mail-tck/
 
 # Set this to the installation of your JDK.
 
@@ -45,7 +45,7 @@ JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 
 # Set this to the directory containing the Jakarta Mail .jar 
 # files (i.e., jakarta.mail.jar and jakarta.activation.jar)
-JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
+JARPATH=/home/rz/dev/geronimo/tmp/mail-tck
 
 # Adjust these as necessary for Windows or UNIX
 # (Must use "${JARPATH}" syntax so ant will expand the nested properties)
