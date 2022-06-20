@@ -55,7 +55,7 @@ JARPATH=/home/zowallar/dev/geronimo/tmp/mail-tck
 # Or use the following if testing modules:
 #LOCAL_CLASSES=${JARPATH}/mailapi.jar:${JARPATH}/smtp.jar:${JARPATH}/imap.jar:${JARPATH}/jakarta.activation.jar
 
-LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.0-SNAPSHOT.jar:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
+LOCAL_CLASSES=$JARPATH/geronimo-mail_2.1_mail-1.0.1-SNAPSHOT.jar:$JARPATH/geronimo-activation_2.0_spec-1.0.0.jar:$JARPATH/geronimo-mail_2.1_spec-1.0.0-M1.jar
 
 ##TESTCLASS=$TS_HOME\\classes
 TESTCLASS=$TS_HOME/classes
