@@ -33,7 +33,7 @@
 
 - Run the following docker command:
 ```
-docker run -t -i -p 1025:3025 -p 3110:3110 -p 1143:3143 -p 3465:3465 -p 3993:3993 -p 3995:3995 -p 8080:8080 -e GREENMAIL_OPTS='-Dgreenmail.setup.test.all -Dgreenmail.hostname=0.0.0.0 -Dgreenmail.auth.disabled -Dgreenmail.verbose -Dgreenmail.users=user01:1234' greenmail/standalone:1.6.9
+docker run -t -i -p 1025:3025 -p 3110:3110 -p 1143:3143 -p 3465:3465 -p 3993:3993 -p 3995:3995 -p 8080:8080 -e GREENMAIL_OPTS='-Dgreenmail.setup.test.all -Dgreenmail.hostname=0.0.0.0 -Dgreenmail.verbose -Dgreenmail.users=user01:1234' greenmail/standalone:1.6.9
 ```
 
 ## Populate the mail server with required TCK data
